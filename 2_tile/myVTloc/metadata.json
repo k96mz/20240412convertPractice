@@ -1,0 +1,14 @@
+{
+"name": "2_tile/myVTloc",
+"description": "2_tile/myVTloc",
+"version": "2",
+"minzoom": "0",
+"maxzoom": "3",
+"center": "22.500000,20.489949,3",
+"bounds": "-73.972275,4.848613,31.581076,40.753636",
+"type": "overlay",
+"format": "pbf",
+"generator": "tippecanoe v2.17.0",
+"generator_options": "tippecanoe -e 2_tile/myVTloc --no-tile-compression --no-feature-limit '​--no-tile-size-limit' '--drop-rate=1' -Z0 -z3 -L loc:1_geojson/loc.geojson",
+"json": "{\"vector_layers\":[{\"id\":\"loc\",\"description\":\"\",\"minzoom\":0,\"maxzoom\":3,\"fields\":{\"Id\":\"Number\",\"location\":\"String\",\"name\":\"String\"}}],\"tilestats\":{\"layerCount\":1,\"layers\":[{\"layer\":\"loc\",\"count\":3,\"geometry\":\"Point\",\"attributeCount\":3,\"attributes\":[{\"attribute\":\"Id\",\"count\":1,\"type\":\"number\",\"values\":[0],\"min\":0,\"max\":0},{\"attribute\":\"location\",\"count\":3,\"type\":\"string\",\"values\":[\"Brindisi\",\"Juba\",\"New York\"]},{\"attribute\":\"name\",\"count\":3,\"type\":\"string\",\"values\":[\"UNGIS\",\"UNGSC\",\"UNMISS\"]}]}]}}"
+}
