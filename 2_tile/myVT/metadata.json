@@ -1,0 +1,14 @@
+{
+"name": "2_tile/myVT",
+"description": "2_tile/myVT",
+"version": "2",
+"minzoom": "0",
+"maxzoom": "3",
+"center": "-67.500000,20.489949,3",
+"bounds": "-180.000000,-85.051129,180.000000,83.645130",
+"type": "overlay",
+"format": "pbf",
+"generator": "tippecanoe v2.17.0",
+"generator_options": "tippecanoe -e 2_tile/myVT --no-tile-compression --no-feature-limit '​--no-tile-size-limit' '--drop-rate=1' -Z0 -z3 -L coastl:1_geojson/coastl.geojson",
+"json": "{\"vector_layers\":[{\"id\":\"coastl\",\"description\":\"\",\"minzoom\":0,\"maxzoom\":3,\"fields\":{\"featurecla\":\"String\",\"min_zoom\":\"Number\",\"scalerank\":\"Number\"}}],\"tilestats\":{\"layerCount\":1,\"layers\":[{\"layer\":\"coastl\",\"count\":134,\"geometry\":\"LineString\",\"attributeCount\":3,\"attributes\":[{\"attribute\":\"featurecla\",\"count\":2,\"type\":\"string\",\"values\":[\"Coastline\",\"Country\"]},{\"attribute\":\"min_zoom\",\"count\":4,\"type\":\"number\",\"values\":[0,0.5,1,1.5],\"min\":0,\"max\":1.5},{\"attribute\":\"scalerank\",\"count\":2,\"type\":\"number\",\"values\":[0,1],\"min\":0,\"max\":1}]}]}}"
+}

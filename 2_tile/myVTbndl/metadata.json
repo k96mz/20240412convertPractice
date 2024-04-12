@@ -1,0 +1,14 @@
+{
+"name": "2_tile/myVTbndl",
+"description": "2_tile/myVTbndl",
+"version": "2",
+"minzoom": "0",
+"maxzoom": "3",
+"center": "22.500000,20.489949,3",
+"bounds": "-140.997780,-54.896810,141.033852,70.164190",
+"type": "overlay",
+"format": "pbf",
+"generator": "tippecanoe v2.17.0",
+"generator_options": "tippecanoe -e 2_tile/myVTbndl --no-tile-compression --no-feature-limit '​--no-tile-size-limit' '--drop-rate=1' -Z0 -z3 -L bndl:1_geojson/bndl.geojson",
+"json": "{\"vector_layers\":[{\"id\":\"bndl\",\"description\":\"\",\"minzoom\":0,\"maxzoom\":3,\"fields\":{\"featurecla\":\"String\",\"min_zoom\":\"Number\",\"scalerank\":\"Number\"}}],\"tilestats\":{\"layerCount\":1,\"layers\":[{\"layer\":\"bndl\",\"count\":186,\"geometry\":\"LineString\",\"attributeCount\":3,\"attributes\":[{\"attribute\":\"featurecla\",\"count\":4,\"type\":\"string\",\"values\":[\"Disputed (please verify)\",\"Indefinite (please verify)\",\"International boundary (verify)\",\"Line of control (please verify)\"]},{\"attribute\":\"min_zoom\",\"count\":1,\"type\":\"number\",\"values\":[0],\"min\":0,\"max\":0},{\"attribute\":\"scalerank\",\"count\":1,\"type\":\"number\",\"values\":[1],\"min\":1,\"max\":1}]}]}}"
+}

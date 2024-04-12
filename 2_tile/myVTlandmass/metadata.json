@@ -1,0 +1,15 @@
+{
+"name": "2_tile/myVTlandmass",
+"description": "2_tile/myVTlandmass",
+"version": "2",
+"minzoom": "0",
+"maxzoom": "3",
+"center": "112.500000,20.489949,3",
+"bounds": "-180.000000,-85.051129,180.000000,83.645130",
+"type": "overlay",
+"strategies": "[{},{\"tiny_polygons\":2},{\"tiny_polygons\":3},{\"tiny_polygons\":8}]",
+"format": "pbf",
+"generator": "tippecanoe v2.17.0",
+"generator_options": "tippecanoe -e 2_tile/myVTlandmass --no-tile-compression --no-feature-limit '​--no-tile-size-limit' '--drop-rate=1' -Z0 -z3 -L landmass:1_geojson/landmass.geojson",
+"json": "{\"vector_layers\":[{\"id\":\"landmass\",\"description\":\"\",\"minzoom\":0,\"maxzoom\":3,\"fields\":{\"featurecla\":\"String\",\"min_zoom\":\"Number\",\"scalerank\":\"Number\"}}],\"tilestats\":{\"layerCount\":1,\"layers\":[{\"layer\":\"landmass\",\"count\":127,\"geometry\":\"Polygon\",\"attributeCount\":3,\"attributes\":[{\"attribute\":\"featurecla\",\"count\":1,\"type\":\"string\",\"values\":[\"Land\"]},{\"attribute\":\"min_zoom\",\"count\":4,\"type\":\"number\",\"values\":[0,0.5,1,1.5],\"min\":0,\"max\":1.5},{\"attribute\":\"scalerank\",\"count\":2,\"type\":\"number\",\"values\":[0,1],\"min\":0,\"max\":1}]}]}}"
+}
