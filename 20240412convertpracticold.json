@@ -6,7 +6,7 @@
     "v": {
       "type": "vector",
       "tiles": [
-        "https://k96mz.github.io/20240412convertPractice/2_tile/myVT/{z}/{x}/{y}.pbf"
+        "https://k96mz.github.io/20240412convertPractice/2_tile/myVT/{x}/{y}/{z}.pbf"
       ],
       "minzoom": 0,
       "maxzoom": 3
@@ -14,7 +14,7 @@
     "bndl": {
       "type": "vector",
       "tiles": [
-        "https://k96mz.github.io/20240412convertPractice/2_tile/myVTbndl/{z}/{x}/{y}.pbf"
+        "https://k96mz.github.io/20240412convertPractice/2_tile/myVTbndl/{x}/{y}/{z}.pbf"
       ],
       "minzoom": 0,
       "maxzoom": 3
@@ -22,7 +22,7 @@
     "landmass": {
       "type": "vector",
       "tiles": [
-        "https://k96mz.github.io/20240412convertPractice/2_tile/myVTlandmass/{z}/{x}/{y}.pbf"
+        "https://k96mz.github.io/20240412convertPractice/2_tile/myVTlandmass/{x}/{y}/{z}.pbf"
       ],
       "minzoom": 0,
       "maxzoom": 3
@@ -30,7 +30,7 @@
     "popp": {
       "type": "vector",
       "tiles": [
-        "https://k96mz.github.io/20240412convertPractice/2_tile/myVTpopp/{z}/{x}/{y}.pbf"
+        "https://k96mz.github.io/20240412convertPractice/2_tile/myVTpopp/{x}/{y}/{z}.pbf"
       ],
       "minzoom": 0,
       "maxzoom": 3
@@ -38,7 +38,7 @@
     "loc": {
       "type": "vector",
       "tiles": [
-        "https://k96mz.github.io/20240412convertPractice/2_tile/myVTloc/{z}/{x}/{y}.pbf"
+        "https://k96mz.github.io/20240412convertPractice/2_tile/myVTloc/{x}/{y}/{z}.pbf"
       ],
       "minzoom": 0,
       "maxzoom": 3
