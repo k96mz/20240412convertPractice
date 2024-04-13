@@ -1,0 +1,93 @@
+{
+  "version": 8,
+  "name": "20240412convertPractic",
+  "metadata": {"maputnik:renderer": "mlgljs"},
+  "sources": {
+    "v": {
+      "type": "vector",
+      "tiles": [
+        "https://k96mz.github.io/20240412convertPractice/2_tile/myVT/{x}/{y}/{z}.pbf"
+      ],
+      "minzoom": 0,
+      "maxzoom": 3
+    },
+    "bndl": {
+      "type": "vector",
+      "tiles": [
+        "https://k96mz.github.io/20240412convertPractice/2_tile/myVTbndl/{x}/{y}/{z}.pbf"
+      ],
+      "minzoom": 0,
+      "maxzoom": 3
+    },
+    "landmass": {
+      "type": "vector",
+      "tiles": [
+        "https://k96mz.github.io/20240412convertPractice/2_tile/myVTlandmass/{x}/{y}/{z}.pbf"
+      ],
+      "minzoom": 0,
+      "maxzoom": 3
+    },
+    "popp": {
+      "type": "vector",
+      "tiles": [
+        "https://k96mz.github.io/20240412convertPractice/2_tile/myVTpopp/{x}/{y}/{z}.pbf"
+      ],
+      "minzoom": 0,
+      "maxzoom": 3
+    },
+    "loc": {
+      "type": "vector",
+      "tiles": [
+        "https://k96mz.github.io/20240412convertPractice/2_tile/myVTloc/{x}/{y}/{z}.pbf"
+      ],
+      "minzoom": 0,
+      "maxzoom": 3
+    }
+  },
+  "sprite": "https://ubukawa.github.io/VT-test-0614/sprite/sprite",
+  "glyphs": "https://ubukawa.github.io/VT-test-0614/font/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "coastl",
+      "type": "line",
+      "source": "v",
+      "source-layer": "coastl",
+      "paint": {"line-color": "rgba(19, 234, 74, 1)", "line-width": 3}
+    },
+    {
+      "id": "landmass",
+      "type": "fill",
+      "source": "landmass",
+      "source-layer": "landmass",
+      "maxzoom": 3,
+      "paint": {"fill-color": "rgba(241, 200, 134, 1)"}
+    },
+    {"id": "bndl", "type": "line", "source": "bndl", "source-layer": "bndl"},
+    {
+      "id": "popp",
+      "type": "circle",
+      "source": "popp",
+      "source-layer": "popp",
+      "maxzoom": 3,
+      "layout": {"visibility": "visible"},
+      "paint": {"circle-radius": {"stops": [[1, 1], [3, 3]]}}
+    },
+    {
+      "id": "loc",
+      "type": "symbol",
+      "source": "loc",
+      "source-layer": "loc",
+      "maxzoom": 3,
+      "layout": {
+        "icon-allow-overlap": true,
+        "icon-image": "public_building",
+        "text-field": "{name}",
+        "text-font": ["sans"],
+        "text-size": 12,
+        "icon-size": 1,
+        "text-offset": [1, 1]
+      }
+    }
+  ],
+  "id": "h9vfgts"
+}
